@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css" integrity="sha512-hoalWLoI8r4UszCkZ5kL8vayOGVae1oxXe/2A4AO6J9+580uKHDO3JdHb7NzwwzK5xr/Fs0W40kiNHxM9vyTtQ==" crossorigin="" />
+  <script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js" integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf8/KABdlkX68nAhlwcDFLGPCQ==" crossorigin=""></script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+  <link rel="stylesheet" href="./sidebar.css">
+  <link rel="stylesheet" href="./homePage.css">
+  <link rel="stylesheet" href="./dialogBox.css">
+  <link rel="stylesheet" href="./src/L.Control.MousePosition.css">
+  
+      <!-- GeoJson Layers -->
+  <script src="./data/Pt_Com.json"></script>
+
+
+
+  <script src="./src/geojson-vt.js"></script>
+  <script src="./src/leaflet-geojson-vt.js"></script>
+
+
+  <link rel="stylesheet" href="./src/Control.MiniMap.min.css">
+  <script src="./src/Control.MiniMap.min.js"></script>
+
+  <title>Madagascar Wildfire Information</title>
+
+  <script src="./src/drawMap/Leaflet.draw.js"></script>
+  <script src="./src/drawMap/Leaflet.Draw.Event.js"></script>
+  <link rel="stylesheet" href="./src/drawMap/leaflet.draw.css" />
+    
+  <script src="./src/drawMap/Toolbar.js"></script>
+  <script src="./src/drawMap/Tooltip.js"></script>
+    
+    <script src="./src/drawMap/ext/GeometryUtil.js"></script>
+    <script src="./src/drawMap/ext/LatLngUtil.js"></script>
+    <script src="./src/drawMap/ext/LineUtil.Intersect.js"></script>
+    <script src="./src/drawMap/ext/Polygon.Intersect.js"></script>
+    <script src="./src/drawMap/ext/Polyline.Intersect.js"></script>
+    <script src="./src/drawMap/ext/TouchEvents.js"></script>
+    
+    <script src="./src/drawMap/draw/DrawToolbar.js"></script>
+    <script src="./src/drawMap/draw/handler/Draw.Feature.js"></script>
+    <script src="./src/drawMap/draw/handler/Draw.SimpleShape.js"></script>
+    <script src="./src/drawMap/draw/handler/Draw.Polyline.js"></script>
+    <script src="./src/drawMap/draw/handler/Draw.Marker.js"></script>
+    <script src="./src/drawMap/draw/handler/Draw.CircleMarker.js"></script>
+    <script src="./src/drawMap/draw/handler/Draw.Circle.js"></script>
+    <script src="./src/drawMap/draw/handler/Draw.Polygon.js"></script>
+    <script src="./src/drawMap/draw/handler/Draw.Rectangle.js"></script>
+    
+    
+    <script src="./src/drawMap/edit/EditToolbar.js"></script>
+    <script src="./src/drawMap/edit/handler/EditToolbar.Edit.js"></script>
+    <script src="./src/drawMap/edit/handler/EditToolbar.Delete.js"></script>
+    
+    <script src="./src/drawMap/Control.Draw.js"></script>
+    
+    <script src="./src/drawMap/edit/handler/Edit.Poly.js"></script>
+    <script src="./src/drawMap/edit/handler/Edit.SimpleShape.js"></script>
+    <script src="./src/drawMap/edit/handler/Edit.Marker.js"></script>
+    <script src="./src/drawMap/edit/handler/Edit.CircleMarker.js"></script>
+    <script src="./src/drawMap/edit/handler/Edit.Circle.js"></script>
+    <script src="./src/drawMap/edit/handler/Edit.Rectangle.js"></script>
+
+
+    <script src="./src/L.Control.MousePosition.js"></script>
+ 
+</head>
+
+<body>
+  <div class="loader">
+    <img src="./src/images/loader.gif" alt="Loading ...">
+    <p class="loading">Loading ...</p>
+</div>
+  <div class="main">
+    <nav class="navbar navbar-expand-lg navbar-dark top-navbar bar">
+      <div class="container-fluid">
+        <a class="top-logo" href="#">
+          <img src="./data/img/logo.png" class="d-inline-block align-text-top">
+        </a>
+        <a class="navbar-brand fs-4 title" href="#"><em>Madagascar Wildfire Info</em> </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+          aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 top-nav">
+            <li class="nav-item">
+              <a target="1" class="nav-link sidebar-router">Fire Maps</a>
+            </li>
+            <li class="nav-item">
+              <a target="2" class="nav-link sidebar-router">Track Fires</a>
+            </li>
+            <li class="nav-item">
+              <a target="3" class="nav-link sidebar-router">Fire History</a>
+            </li>
+            <li class="nav-item">
+              <a target="4" class="nav-link sidebar-router">Data</a>
+            </li>
+            <li class="nav-item">
+              <a target="5" class="nav-link sidebar-router">Report</a>
+            </li>
+            <li class="nav-item">
+              <a target="6" class="nav-link sidebar-router">Tools</a>
+            </li>
+            <li class="nav-item">
+              <a target="7" class="nav-link sidebar-router">Help</a>
+            </li>
+            <li class="nav-item">
+              <a target="8" class="nav-link">Standard map</a>
+            </li>
+          </ul>
+
+          <span class="navbar-text">
+    
+          </span>
+        </div>
+
+
+      </div>
+    </nav>
+    <nav class="navbar navbar-expand-lg second-navbar bar">
+      <div class="container-fluid">
+        <div class="tabs">
+          <ul class="nav nav-container">
+            <li class="nav-item">
+              <a target="1" class="nav-link sidebar-router">Fire Maps</a>
+            </li>
+            <li class="nav-item">
+              <a target="2" class="nav-link sidebar-router">Track Fires</a>
+            </li>
+            <li class="nav-item">
+              <a target="3" class="nav-link sidebar-router">Fire History</a>
+            </li>
+            <li class="nav-item">
+              <a target="4" class="nav-link sidebar-router">Data</a>
+            </li>
+            <li class="nav-item">
+              <a target="5" class="nav-link sidebar-router">Report</a>
+            </li>
+            <li class="nav-item">
+              <a target="6" class="nav-link sidebar-router">Tools</a>
+            </li>
+            <li class="nav-item">
+              <a target="7" class="nav-link sidebar-router">Help</a>
+            </li>
+            <li class="nav-item">
+              <a target="8" class="nav-link ">Standard map</a>
+            </li>
+
+            <button class="btn btn-primary me-md-2 rightBtn" style="right: 0;position:absolute; background-color: transparent;border: 1px solid rgb(172, 3, 147); font-weight: bolder;" type="button"><i class="fa fa-long-arrow-alt-left"></i></button>
+          </ul>
+
+         
+
+        </div>
+      </div>
+    </nav>
+
+    <div class="tab-content">
+      <div class="hidemenu">
+        <a><i class="fas fa-chevron-left close-btn"></i> HIDE MENU</a>
+      </div>
+                <!-- SIDEBAR 1 -->
+      <div id="sidebar1" class="active target">
+        <div id="title" class="item" style="font-weight:bold">
+          <a>Areas<i class="fa fa-question-circle dropdownOne"></i></a>
+        </div>
+        <div class="item subtitle">
+          <a class="sub-btn"><i class="fa fa-layer-group"></i> Preset Areas</a>
+          <div id="parentList" class="sub-menu">
+            <!-- //// SIDEBAR1 ITEMS LIST GO HERE -->
+          </div>
+
+          <a class="sub-btn"> My Areas <i class="fa fa-plus-circle plusCircle"></i></a>
+
+        </div>
+        <div id="title2" style="font-weight:bold" class="item"><a>Go to Location<i
+              class="fa fa-question-circle dropdownOne"></i></a></div>
+        <div class="item subtitle">
+          <form action="" class="form">
+            <label for="name">Enter name (*is wildcard):</label>
+            <input type="text" name="name" class="name">
+
+            <label for="location">Enter location type:</label>
+            <input type="select" name="location" class="location">
+
+            <label for="state">Enter state or Territory:</label>
+            <input type="select" name="state" class="state">
+            <button class="btn btn-primary submitBtn" type="submit">List search results</button>
+          </form>
+        </div>
+        <div id="title3" style="font-weight:bold" class="item"><a>Upload Boundary<i
+              class="fa fa-question-circle dropdownOne"></i></a></div>
+        <div class="item subtitle">
+          <a id="open" class="sub-btn"><i class="fa fa-file-upload"></i> Upload to MAFI</a>
+
+        </div>
+        <div id="title4" style="font-weight:bold" class="item"><a>Hotspot Alert <i
+              class="fa fa-question-circle dropdownOne"></i></a></div>
+        <div class="item subtitle">
+          <a id="sethotspot" class="sub-btn"><i class="fa fa-envelope"></i> Set up Alert</a>
+        </div>
+                <!-- SIDEBAR 2 -->
+
+      </div>
+      <div id="sidebar2" class="active target">
+
+
+
+      </div>
+
+            <!-- SIDEBAR 3 -->
+
+      <div id="sidebar3" class="target">
+       
+      </div>
+
+            <!-- SIDEBAR 4 -->
+
+      <div id="sidebar4" class="target">
+        
+
+      </div>
+
+      <div id="sidebar5" class="target">
+        
+        <div class="reportGuide">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus ipsum facilis consectetur voluptas, error sapiente libero dolorem adipisci qui deserunt, dignissimos obcaecati cumque rerum, illo laborum. Harum, impedit consequuntur tempora, fugiat provident quae accusantium vel, corrupti quis velit itaque suscipit officiis magni eius animi in commodi rerum quia quam omnis. Optio unde cum explicabo similique magnam ipsam doloribus libero nesciunt! Consequuntur ipsum omnis repellat odit maiores, voluptates facere, et excepturi fuga culpa voluptas quam animi est neque nam tempora. Voluptas, distinctio ut earum excepturi placeat dignissimos s, 
+
+              </p>
+              <p>
+                <strong>These fire report ignore vegetation.</strong> For NT areas, you can select a broader NRM report.
+               
+              </p>
+
+              <p>
+                <strong>The link bellow will take you to the report site.</strong> 
+              </p>
+
+              <p>
+                <strong>You can then draw a boundary around a specific area or select from lists of pres-set area. </strong>
+              </p>
+              <p>
+                <strong><a href="">Got to reporting site</a></strong>
+              </p>
+
+              
+        </div>
+
+      </div>
+      <div id="sidebar6" class="target">
+       
+      </div>
+
+      <div id="sidebar7" class="target">
+        <h1>SIDEBAR 7</h1>
+      </div>
+
+
+    </div>
+
+    <div id="map">
+      
+    </div>
+    <!-- </div> -->
+    <div class="home-page">
+      <div class="landingPageBody">
+
+
+        <div class="landingPage-container">
+          <div class="first-info">
+
+            <div class="landing-logo">
+              <span><em>NAFI</em> </span>
+            </div>
+
+            <div class="first-info-a">
+              
+              <h3>To view a fire map: </h3>
+              <p>select your region in the left menu or click on the link bellow</p>
+            </div>
+            <div class="first-info-b">
+              <a href="" class="googleEarthLink">Get New Google Earth Link</a>
+            </div>
+          </div>
+          <div class="second-info">
+            <div class="cloudMapContainer">
+              <div id="cloud-map">
+
+              </div>
+              <div id="link-lcc">
+                <div class="icon">
+                  <i class="fa fa-fire"></i>
+                </div>
+                <div class="text">
+                  <a href=""> Latest Cloud Conditions</a>
+                  <p> Click on the map to see fires in that region</p>
+                </div>
+
+
+              </div>
+            </div>
+            <div class="contact-info">
+
+              <div>
+                <span>Get Mobile App </span> <a href=""><i class="fa fa-arrow-circle-right"></i></a>
+              </div>
+              <div>
+                <span> What's new?</span> <a href=""><i class="fa fa-arrow-circle-right"></i></a>
+              </div>
+              <div>
+                <span>Help</span> <a href=""><i class="fa fa-arrow-circle-right"></i></a>
+              </div>
+              <div>
+                <span>Information Hub</span><a href=""><i class="fa fa-arrow-circle-right"></i></a>
+              </div>
+              <div>
+                <span>MAP on Google Earth</span><a href=""><i class="fa fa-arrow-circle-right"></i></a>
+              </div>
+              <div>
+                <span>Contact us</span><a href=""><i class="fa fa-arrow-circle-right"></i></a>
+              </div>
+
+            </div>
+          </div>
+          <div class="last-info">
+            <div class="footer">
+              <p><span>Read this first</span>
+              <ul>
+                <li>This website was created by Francklin TOKIMITONDRASOA </li>
+                <li>You can check his portfolio by clicking <a href="https://tokimitondrasoa-portfolio.vercel.app/">here</a></li>
+                <li>This is just a template</li>
+                <li>This is just a template</li>
+                <li>This is just a template</li>
+                <li>This is just a template</li>
+                <li>This is just a template</li>
+
+
+
+              </ul>
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+
+  </div>
+
+  <script src="./data/antenna.json"></script>
+  <script src="./sidebar.js"></script>
+
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  
+<script src="index.js"></script>
+</body>
+
+</html>
+
+<!-- Popup FIRE-MAPS => Upload Boundary-->
+<div class="upload-Boundary-popup">
+  <div class="model">
+    <h1>View your own maps</h1>
+    <p>You can view your own firelines, boundaries and other map features on MAFI by uploading them as a kml or
+      kmz file from from your computer or device. <br> (<em>These are the files used from Google Earth</em> )</p>
+    <p>You can then share these with other users using the web address that will be provided after you upload
+      the file.
+    <h3>Only suitable for map features such as simple lines, points or boundaries</h3>
+    </p>
+
+    <p>Select Kml or Kmz file:
+    <div class="input-group mb-3">
+      <input type="file" class="form-control" id="inputGroupFile02">
+      <label class="input-group-text" for="inputGroupFile02">Upload</label>
+    </div>
+    </p>
+
+    <a href="">How do I create map?</a>
+
+    <i id="close" class="fas fa-times"></i>
+  </div>
+</div>
+
+<!-- Popup FIRE-MAPS => Hotspot Alert-->
+
+<div class="upload-Hotspot-Alert-popup">
+
+  <div class="model">
+    <h3>Set Hotspot Alert</h3>
+    <div class="">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem enim deserunt, tempore dolores labore
+        maiores earum placeat nam inventore corporis. Ipsum
+        . </p>
+    </div>
+
+    <div class="">
+      <p>
+        non maiores? Numquam, consectetur. Aut, nostrum!
+        <br><a href="">Help with alerts (pdf)</a>
+      </p>
+
+
+    </div>
+
+    <i id="closeHotspot" class="fas fa-times"></i>
+  </div>
+</div>

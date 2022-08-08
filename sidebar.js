@@ -1,6 +1,6 @@
 // /sidebar number 1
 
-fetch("http://localhost:3000/01_firemaps/firemap.json")
+fetch("https://raw.githubusercontent.com/Tokimitondrasoa-Francklin-II/GeospatialePro/main/data/01_firemaps/firemap.json")
   .then((response) => response.json())
   .then((presetAreas) => {
     console.table(presetAreas);
@@ -40,7 +40,7 @@ fetch("http://localhost:3000/01_firemaps/firemap.json")
 
 // /sidebar number 2
 
-fetch("http://localhost:3000/02_trackFires/trackFires.json")
+fetch("https://raw.githubusercontent.com/Tokimitondrasoa-Francklin-II/GeospatialePro/main/data/02_trackFires/trackFires.json")
   .then((response) => response.json())
   .then((FiresData) => {
     console.log(FiresData);
@@ -111,7 +111,7 @@ fetch("http://localhost:3000/02_trackFires/trackFires.json")
 
 // sidebar 3
 
-fetch("http://localhost:3000/03_fireHistory/fireHistories.json")
+fetch("https://raw.githubusercontent.com/Tokimitondrasoa-Francklin-II/GeospatialePro/main/data/03_fireHistory/fireHistories.json")
   .then((response) => response.json())
   .then((fireHistoryData) => {
     console.log(fireHistoryData);
@@ -176,7 +176,7 @@ fetch("http://localhost:3000/03_fireHistory/fireHistories.json")
   
     // Sisebar 4
 
-    fetch("http://localhost:3000/04_Data/datas.json")
+    fetch("https://raw.githubusercontent.com/Tokimitondrasoa-Francklin-II/GeospatialePro/main/data/04_Data/datas.json")
     .then(response => response.json())
     .then(dataCatalogue => {console.log(dataCatalogue)
     
@@ -220,7 +220,7 @@ fetch("http://localhost:3000/03_fireHistory/fireHistories.json")
 
      // SIDEBAR 6
 
-     fetch("http://localhost:3000/06_TOOLS/06_tools.json")
+     fetch("https://raw.githubusercontent.com/Tokimitondrasoa-Francklin-II/GeospatialePro/main/data/06_TOOLS/06_tools.json")
      .then(response => response.json())
      .then(dataMapTools =>{console.log(dataMapTools)
      

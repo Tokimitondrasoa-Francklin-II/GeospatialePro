@@ -1,0 +1,120 @@
+{
+  "menu": 
+    {
+      "title": "AREAS",
+      "icon": "fas fa-question-circle",
+      "submenu": [
+        {
+        "title": "Preset Area",
+        "icon": "fa-caret-right"
+        },
+        {
+        "title": "P-Area",
+        "icon": "fa-caret-right"
+        },
+        {
+        "title": "P2-Area",
+        "icon": "fa-caret-right"
+        },
+        {
+        "title": "P3-Area",
+        "icon": "fa-caret-right"
+        },
+        {
+          "title": "My Areas"
+        }
+      ]
+    }
+  ,
+
+  "childrens": [
+    {
+        "title": "children1",
+        "icon": "fas fa-question-circle",
+        "sub_childrens": [
+            {
+            "title": "subchildren1",
+            "icon": "fa-caret-right"
+            },
+            {
+            "title": "subchildren1",
+            "icon": "fa-caret-right"
+            },
+            {
+            "title": "subchildren1",
+            "icon": "fa-caret-right"
+            },
+            {
+            "title": "subchildren1",
+            "icon": "fa-caret-right"
+            }
+        ]
+      },
+      {
+        "title": "children2",
+        "icon": "fas fa-question-circle",
+        "sub_childrens": [
+          {
+          "title": "subchildren2",
+          "icon": "fa-caret-right"
+          },
+          {
+          "title": "subchildren2",
+          "icon": "fa-caret-right"
+          },
+          {
+          "title": "subchildren2",
+          "icon": "fa-caret-right"
+          },
+          {
+          "title": "subchildren2",
+          "icon": "fa-caret-right"
+          }
+        ]
+      },
+      {
+        "title": "children3",
+        "icon": "fas fa-question-circle",
+        "sub_childrens": [
+          {
+          "title": "subchildren3",
+          "icon": "fa-caret-right"
+          },
+          {
+          "title": "subchildren3",
+          "icon": "fa-caret-right"
+          },
+          {
+          "title": "subchildren3",
+          "icon": "fa-caret-right"
+          },
+          {
+          "title": "subchildren3",
+          "icon": "fa-caret-right"
+          }
+        ]
+      },
+      {
+        "title": "children4",
+        "icon": "fas fa-question-circle",
+        "sub_childrens": [
+          {
+          "title": "subchildren4",
+          "icon": "fa-caret-right"
+          },
+          {
+          "title": "subchildren4",
+          "icon": "fa-caret-right"
+          },
+          {
+          "title": "subchildren4",
+          "icon": "fa-caret-right"
+          },
+          {
+          "title": "subchildren4",
+          "icon": "fa-caret-right"
+          }
+        ]
+      }
+  ]
+}

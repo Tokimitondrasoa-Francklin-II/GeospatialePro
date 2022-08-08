@@ -1,0 +1,48 @@
+[
+    {
+        "title":"Geotiff & Shapefile",
+        "icon":" fa fa-0",
+        "children":[
+            {
+                "title":"Fire history 200-21"
+            },
+            {
+                "title":"Fire history 2012-21"
+            },
+            {
+                "title":"Fire history archive"
+            },
+            {
+                "title":"Fire scars by year"
+            }
+        ]
+    },
+    {
+        "title":"For Google Earth",
+        "icon":" fa fa-0",
+        "children":[
+            {
+                "title":"Current fire data"
+            },
+            {
+                "title":"Past years fire scars"
+            },
+            {
+                "title":"Fire history patterns"
+            }
+        ]
+    },
+    {
+        "title":"From NAFI Display",
+        "icon":" fa fa-0",
+        "children":[
+            {
+                "title":"Hotspots"
+            },
+            {
+                "title":"Fire scars"
+            }
+        ]
+    }
+
+]

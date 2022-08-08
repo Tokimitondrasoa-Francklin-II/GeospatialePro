@@ -1,0 +1,216 @@
+[
+  {
+    "title": "Preset area 1",
+    "icon": "fa fa-caret-right dropdown",
+    "class":"sub-item",
+    "childrens": [
+                        {
+                            "title": "Sub-area 1",
+                            "geometry": {
+                            "type": "Point",
+                            "coordinates": [47.1240478849, -20.5244155949]
+                            }
+                        },
+                        {
+                            "title": "Sub-area 2",
+                            "geometry": {
+                            "type": "Point",
+                            "coordinates": [47.1240478849, -20.5244155949]
+                            }
+                        },
+                        {
+                            "title": "Sub-area 3",
+                            "geometry": {
+                            "type": "Point",
+                            "coordinates": [47.1240478849, -20.5244155949]
+                            }
+                        },
+                        {
+                            "title": "Sub-area 4",
+                            "geometry": {
+                            "type": "Point",
+                            "coordinates": [47.1240478849, -20.5244155949]
+                            }
+                        },
+                        {
+                            "title": "Sub-area 5",
+                            "geometry": {
+                            "type": "Point",
+                            "coordinates": [47.1240478849, -20.5244155949]
+                            }
+                        },
+                        {
+                            "title": "Sub-area 6",
+                            "geometry": {
+                            "type": "Point",
+                            "coordinates": [47.1240478849, -20.5244155949]
+                            }
+                        }
+                ],
+    "geometry": {
+      "type": "Point",
+      "coordinates": [47.124, -20.5]
+    }
+  },
+
+  {
+    "title": "Preset area 2",
+    "class":"sub-item",
+    "icon": "fa fa-caret-right dropdown",
+    "childrens": [
+                {
+                    "title": "Sub-area 1",
+                    "geometry": {
+                    "type": "Point",
+                    "coordinates": [47.1240478849, -20.5244155949]
+                    }
+                },
+                {
+                    "title": "Sub-area 2",
+                    "geometry": {
+                    "type": "Point",
+                    "coordinates": [47.1240478849, -20.5244155949]
+                    }
+                },
+                {
+                    "title": "Sub-area 3",
+                    "geometry": {
+                    "type": "Point",
+                    "coordinates": [47.1240478849, -20.5244155949]
+                    }
+                },
+                {
+                    "title": "Sub-area 4",
+                    "geometry": {
+                    "type": "Point",
+                    "coordinates": [47.1240478849, -20.5244155949]
+                    }
+                },
+                {
+                    "title": "Sub-area 5",
+                    "geometry": {
+                    "type": "Point",
+                    "coordinates": [47.1240478849, -20.5244155949]
+                    }
+                },
+                {
+                    "title": "Sub-area 6",
+                    "geometry": {
+                    "type": "Point",
+                    "coordinates": [47.1240478849, -20.5244155949]
+                    }
+                }
+],
+    "geometry": {
+      "type": "Point",
+      "coordinates": [47.124, -20.5]
+    }
+  },
+
+  {
+    "title": "Preset area 3",
+    "class":"sub-item",
+    "icon":"fa fa-caret-right dropdown",
+    "childrens": [
+            {
+                "title": "Sub-area 1",
+                "geometry": {
+                "type": "Point",
+                "coordinates": [47.1240478849, -20.5244155949]
+                }
+            },
+            {
+                "title": "Sub-area 2",
+                "geometry": {
+                "type": "Point",
+                "coordinates": [47.1240478849, -20.5244155949]
+                }
+            },
+            {
+                "title": "Sub-area 3",
+                "geometry": {
+                "type": "Point",
+                "coordinates": [47.1240478849, -20.5244155949]
+                }
+            },
+            {
+                "title": "Sub-area 4",
+                "geometry": {
+                "type": "Point",
+                "coordinates": [47.1240478849, -20.5244155949]
+                }
+            },
+            {
+                "title": "Sub-area 5",
+                "geometry": {
+                "type": "Point",
+                "coordinates": [47.1240478849, -20.5244155949]
+                }
+            },
+            {
+                "title": "Sub-area 6",
+                "geometry": {
+                "type": "Point",
+                "coordinates": [47.1240478849, -20.5244155949]
+                }
+            }
+],
+    "geometry": {
+      "type": "Point",
+      "coordinates": [47.124, -20.5]
+    }
+  },
+  {
+    "title": "Preset area 4",
+    "class":"sub-item",
+    "icon":"fa fa-caret-right dropdown",
+    "childrens": [
+            {
+                "title": "Sub-area 1",
+                "geometry": {
+                "type": "Point",
+                "coordinates": [47.1240478849, -20.5244155949]
+                }
+            },
+            {
+                "title": "Sub-area 2",
+                "geometry": {
+                "type": "Point",
+                "coordinates": [47.1240478849, -20.5244155949]
+                }
+            },
+            {
+                "title": "Sub-area 3",
+                "geometry": {
+                "type": "Point",
+                "coordinates": [47.1240478849, -20.5244155949]
+                }
+            },
+            {
+                "title": "Sub-area 4",
+                "geometry": {
+                "type": "Point",
+                "coordinates": [47.1240478849, -20.5244155949]
+                }
+            },
+            {
+                "title": "Sub-area 5",
+                "geometry": {
+                "type": "Point",
+                "coordinates": [47.1240478849, -20.5244155949]
+                }
+            },
+            {
+                "title": "Sub-area 6",
+                "geometry": {
+                "type": "Point",
+                "coordinates": [47.1240478849, -20.5244155949]
+                }
+            }
+],
+    "geometry": {
+      "type": "Point",
+      "coordinates": [47.124, -20.5]
+    }
+ }
+]

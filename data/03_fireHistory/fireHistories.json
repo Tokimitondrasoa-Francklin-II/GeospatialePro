@@ -1,0 +1,204 @@
+[
+    {
+        "title":"Fires Histories",
+        "icon":"fa fa-question-circle",
+        "children":[
+            {
+                "title":"Years burnt 00-21",
+                "geometry":{
+                    "type": "Point",
+                    "coordinates": [47.124, -20.5]
+                }
+            },
+            {
+                "title":"Late burnt 00-21",
+                "geometry":{
+                    "type": "Point",
+                    "coordinates": [47.124, -20.5]
+                }
+            },
+            {
+                "title":"Latest burnt 00-21",
+                "geometry":{
+                    "type": "Point",
+                    "coordinates": [47.124, -20.5]
+                }
+            },
+            {
+                "title":"Years burnt 12-21",
+                "geometry":{
+                    "type": "Point",
+                    "coordinates": [47.124, -20.5]
+                }
+            },
+            {
+                "title":"Late burnt 12-21",
+                "geometry":{
+                    "type": "Point",
+                    "coordinates": [47.124, -20.5]
+                }
+            },
+            {
+                "title":"Latest burnt 12-21",
+                "geometry":{
+                    "type": "Point",
+                    "coordinates": [47.124, -20.5]
+                }
+            },
+            {
+                "title":"Standard Map",
+                "geometry":{
+                    "type": "Point",
+                    "coordinates": [47.124, -20.5]
+                }
+            }
+        ]
+    },
+    {
+        "title":"Recently Burnt Areas",
+        "icon":"fa fa-question-circle",
+        "children":[
+            {
+                "title":"Burnt 2021-2022",
+                "geometry":{
+                    "type": "Point",
+                    "coordinates": [47.124, -20.5]
+                }
+            },
+            {
+                "title":"Burnt 2020-2022",
+                "geometry":{
+                    "type": "Point",
+                    "coordinates": [47.124, -20.5]
+                }
+            },
+            {
+                "title":"Burnt 2019-2022",
+                "geometry":{
+                    "type": "Point",
+                    "coordinates": [47.124, -20.5]
+                }
+            },
+            {
+                "title":"Standard Map",
+                "geometry":{
+                    "type": "Point",
+                    "coordinates": [47.124, -20.5]
+                }
+            }
+        ]
+    },
+    {
+        "title":"Fire Scars by Mounth",
+        "icon":"fas fa-question-circle",
+        "children":[
+            {
+                "CheckList":"2000 by month",
+                "year":"2000"
+            },
+            {
+                "CheckList":"2001 by month",
+                "year":"2001"
+            },
+            {
+                "CheckList":"2002 by month",
+                "year":"2002"
+            },
+            {
+                "CheckList":"2003 by month",
+                "year":"2003"
+            },
+            {
+                "CheckList":"2004 by month",
+                "year":"2004"
+            },
+            {
+                "CheckList":"2005 by month",
+                "year":"2005"
+            }
+            
+        ]
+    },
+    {
+        "title":"Fire Scars by Year",
+        "icon":"fas fa-question-circle",
+        "children":[
+            {
+                "CheckList":"2000",
+                "year":"2000"
+            },
+            {
+                "CheckList":"2001",
+                "year":"2001"
+            },
+            {
+                "CheckList":"2002",
+                "year":"2002"
+            },
+            {
+                "CheckList":"2003",
+                "year":"2003"
+            },
+            {
+                "CheckList":"2004",
+                "year":"2004"
+            },
+            {
+                "CheckList":"2005",
+                "year":"2005"
+            }
+            
+        ]
+    },
+    {
+        "title":"HiRes Fire Histories",
+        "icon":"fas fa-question-circle",
+        "children":[
+            {
+                "title":"Pilbara FS 19-20",
+                "geometry":{
+                    "type": "Point",
+                    "coordinates": [47.124, -20.5]
+                }
+            },
+            {
+                "title":"Standard map",
+                "geometry":{
+                    "type": "Point",
+                    "coordinates": [47.124, -20.5]
+                }
+            }
+        ]
+    },
+    {
+        "title":"Hotspots by Month",
+        "icon":"fas fa-question-circle",
+        "children":[
+            {
+                "CheckList":"2000",
+                "year":"2000"
+            },
+            {
+                "CheckList":"2001",
+                "year":"2001"
+            },
+            {
+                "CheckList":"2002",
+                "year":"2002"
+            },
+            {
+                "CheckList":"2003",
+                "year":"2003"
+            },
+            {
+                "CheckList":"2004",
+                "year":"2004"
+            },
+            {
+                "CheckList":"2005",
+                "year":"2005"
+            }
+            
+        ]
+    }
+]

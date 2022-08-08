@@ -1,0 +1,178 @@
+[
+    {
+      "title":"Recent Burnt Areas",
+      "icon":"fas fa-question-circle",
+      "children":[
+          {
+              "title":"Burnt 2021-2022",
+              "geometry":{
+                  "type": "Point",
+                  "coordinates": [47.1240478849, -20.5244155949]
+              }
+          },
+          {
+              "title":"Burnt 2020-2022",
+              "geometry":{
+                  "type": "Point",
+                  "coordinates": [47.1240478849, -20.5244155949]
+              }
+          },
+          {
+              "title":"Standard Map",
+              "geometry":{
+                  "type": "Point",
+                  "coordinates": [47.1240478849, -20.5244155949]
+              }
+          }
+
+      ]
+    },
+  
+    {
+      "title":"Recent Hires Fire Areas",
+        "icon":"fas fa-question-circle",
+        "children":[
+            {
+                "title":"Recent Hires Fires 2020",
+                "geometry":{
+                    "type": "Point",
+                    "coordinates": [47.1240478849, -20.5244155949]
+                }
+            },
+            {
+                "title":"Recent Hires Fires 2021",
+                "geometry":{
+                    "type": "Point",
+                    "coordinates": [47.1240478849, -20.5244155949]
+                }
+            },
+            {
+                "title":"Standard Map",
+                "geometry":{
+                    "type": "Point",
+                    "coordinates": [47.1240478849, -20.5244155949]
+                }
+            }
+
+        ]
+    },
+  
+    {
+      "title":"Current Curing",
+      "icon":"fas fa-question-circle",
+      "children":[
+          {
+              "title":"Current Curring (NT)",
+              "geometry":{
+                  "type": "Point",
+                  "coordinates": [47.1240478849, -20.5244155949]
+              }
+          },
+          {
+              "title":"Standard Map",
+              "geometry":{
+                  "type": "Point",
+                  "coordinates": [47.1240478849, -20.5244155949]
+              }
+          }
+      ]
+    },
+    {
+      "title":"Check Fire Spread",
+      "icon":"fas fa-question-circle",
+      "children":[
+          {
+              "title":"Query Hotspot times",
+              "icon":"fas fa-info-circle",
+              "geometry":{
+                  "type": "Point",
+                  "coordinates": [47.1240478849, -20.5244155949]
+              }
+          },
+          {
+              "title":"Visualise Spread:",
+              "children":[
+                  {
+                      "title":"Hotspots(last week)",
+                      "icon":"fas fa-info-circle",
+                      "geometry":{
+                          "type": "Point",
+                          "coordinates": [47.1240478849, -20.5244155949]
+                      }
+                  },
+                  {
+                      "title":"Hotspots(old)",
+                      "icon":"fas fa-info-circle",
+                      "geometry":{
+                          "type": "Point",
+                          "coordinates": [47.1240478849, -20.5244155949]
+                      }
+                  }
+              ],
+              "geometry":{
+                  "type": "Point",
+                  "coordinates": [47.1240478849, -20.5244155949]
+              }
+          }
+        ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [47.124, -20.5]
+      }
+    },
+    {
+      "title":"Check conditions",
+      "icon":"fas fa-info-circle",
+      "children": [
+              {
+                "title":"Smoke & Clouds",
+                "icon":"fa fa-cloud",
+                "path":"./link.com"
+              },
+              {
+                "title":"Show Lightning",
+                "icon":"fa fa-bolt",
+                "path":"./link.com"
+              },
+              {
+                "title":"Show Lightning",
+                "icon":"fa fa-bolt",
+                "path":"./link.com"
+               },
+               {
+                "title":"Standard Map",
+                "geometry":{
+                    "type": "Point",
+                    "coordinates": [47.1240478849, -20.5244155949]
+                }
+            }
+             
+  ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [47.124, -20.5]
+      }
+    },
+    {
+      "title":"Check for Updates",
+        "icon":"fas fa-question-circle",
+        "children":[
+            {
+                "title":"Lastest Firescars",
+                "icon":"fa fa-file-upload",
+                "path":"./link.com"
+            },
+            {
+                "title":"Latest hotspots",
+                "icon":"fa fa-satellite",
+                "path":"./link.com"
+            },
+            {
+                "title":"Next hotspots updates",
+                "icon":"fa fa-question-circle",
+                "path":"./link.com"
+            }
+        ]
+    }
+  ]
+  

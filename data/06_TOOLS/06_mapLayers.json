@@ -1,0 +1,390 @@
+[
+    {
+      "title": "Base",
+      "icon": "fa fa-caret-right dropdown",
+      "class":"sub-item",
+      "childrens": [
+                          {
+                              "title": "Parks etc",
+                              "geometry": {
+                              "type": "Point",
+                              "coordinates": [47.1240478849, -20.5244155949]
+                              }
+                          },
+                          {
+                              "title": "Rain 600-1000",
+                              "geometry": {
+                              "type": "Point",
+                              "coordinates": [47.1240478849, -20.5244155949]
+                              }
+                          },
+                          {
+                              "title": "KNP Breaks",
+                              "geometry": {
+                              "type": "Point",
+                              "coordinates": [47.1240478849, -20.5244155949]
+                              }
+                          },
+                          {
+                              "title": "Sub-area 4",
+                              "geometry": {
+                              "type": "Point",
+                              "coordinates": [47.1240478849, -20.5244155949]
+                              }
+                          },
+                          {
+                              "title": "KNP Pts",
+                              "geometry": {
+                              "type": "Point",
+                              "coordinates": [47.1240478849, -20.5244155949]
+                              }
+                          },
+                          {
+                              "title": "PRNP Breaks",
+                              "geometry": {
+                              "type": "Point",
+                              "coordinates": [47.1240478849, -20.5244155949]
+                              }
+                          },
+                          {
+                            "title": "W Desert",
+                            "geometry": {
+                            "type": "Point",
+                            "coordinates": [47.1240478849, -20.5244155949]
+                            }
+                        },
+                        {
+                            "title": "Kim Ares",
+                            "geometry": {
+                            "type": "Point",
+                            "coordinates": [47.1240478849, -20.5244155949]
+                            }
+                        },
+                        {
+                            "title": "Kim Pts",
+                            "geometry": {
+                            "type": "Point",
+                            "coordinates": [47.1240478849, -20.5244155949]
+                            }
+                        },
+                        {
+                            "title": "Fire Weather Dist.",
+                            "geometry": {
+                            "type": "Point",
+                            "coordinates": [47.1240478849, -20.5244155949]
+                            }
+                        },
+                        {
+                            "title": "Current Curing 250m",
+                            "geometry": {
+                            "type": "Point",
+                            "coordinates": [47.1240478849, -20.5244155949]
+                            }
+                        },
+                        {
+                            "title": "Labels",
+                            "geometry": {
+                            "type": "Point",
+                            "coordinates": [47.1240478849, -20.5244155949]
+                            }
+                        }
+                  ]
+    },
+  
+    {
+      "title": "Histories 97-10 (1K)",
+      "class":"sub-item",
+      "icon": "fa fa-caret-right dropdown",
+      "childrens": [
+                  {
+                      "title": "Years burnt",
+                      "geometry": {
+                      "type": "Point",
+                      "coordinates": [47.1240478849, -20.5244155949]
+                      }
+                  },
+                  {
+                      "title": "Late burnt",
+                      "geometry": {
+                      "type": "Point",
+                      "coordinates": [47.1240478849, -20.5244155949]
+                      }
+                  },
+                  {
+                      "title": "Last burnt",
+                      "geometry": {
+                      "type": "Point",
+                      "coordinates": [47.1240478849, -20.5244155949]
+                      }
+                  },
+                  {
+                      "title": "Sub-area 4",
+                      "geometry": {
+                      "type": "Point",
+                      "coordinates": [47.1240478849, -20.5244155949]
+                      }
+                  },
+                  {
+                      "title": "Sub-area 5",
+                      "geometry": {
+                      "type": "Point",
+                      "coordinates": [47.1240478849, -20.5244155949]
+                      }
+                  },
+                  {
+                      "title": "Sub-area 6",
+                      "geometry": {
+                      "type": "Point",
+                      "coordinates": [47.1240478849, -20.5244155949]
+                      }
+                  }
+  ]
+    },
+  
+    {
+      "title": "Histories 00-21",
+      "class":"sub-item",
+      "icon":"fa fa-caret-right dropdown",
+      "childrens": [
+              {
+                  "title": "Sub-area 1",
+                  "geometry": {
+                  "type": "Point",
+                  "coordinates": [47.1240478849, -20.5244155949]
+                  }
+              },
+              {
+                  "title": "Sub-area 2",
+                  "geometry": {
+                  "type": "Point",
+                  "coordinates": [47.1240478849, -20.5244155949]
+                  }
+              },
+              {
+                  "title": "Sub-area 3",
+                  "geometry": {
+                  "type": "Point",
+                  "coordinates": [47.1240478849, -20.5244155949]
+                  }
+              },
+              {
+                  "title": "Sub-area 4",
+                  "geometry": {
+                  "type": "Point",
+                  "coordinates": [47.1240478849, -20.5244155949]
+                  }
+              },
+              {
+                  "title": "Sub-area 5",
+                  "geometry": {
+                  "type": "Point",
+                  "coordinates": [47.1240478849, -20.5244155949]
+                  }
+              },
+              {
+                  "title": "Sub-area 6",
+                  "geometry": {
+                  "type": "Point",
+                  "coordinates": [47.1240478849, -20.5244155949]
+                  }
+              }
+  ]
+    },
+    {
+      "title": "Histories 12-21",
+      "class":"sub-item",
+      "icon":"fa fa-caret-right dropdown",
+      "childrens": [
+              {
+                  "title": "Sub-area 1",
+                  "geometry": {
+                  "type": "Point",
+                  "coordinates": [47.1240478849, -20.5244155949]
+                  }
+              },
+              {
+                  "title": "Sub-area 2",
+                  "geometry": {
+                  "type": "Point",
+                  "coordinates": [47.1240478849, -20.5244155949]
+                  }
+              },
+              {
+                  "title": "Sub-area 3",
+                  "geometry": {
+                  "type": "Point",
+                  "coordinates": [47.1240478849, -20.5244155949]
+                  }
+              },
+              {
+                  "title": "Sub-area 4",
+                  "geometry": {
+                  "type": "Point",
+                  "coordinates": [47.1240478849, -20.5244155949]
+                  }
+              },
+              {
+                  "title": "Sub-area 5",
+                  "geometry": {
+                  "type": "Point",
+                  "coordinates": [47.1240478849, -20.5244155949]
+                  }
+              },
+              {
+                  "title": "Sub-area 6",
+                  "geometry": {
+                  "type": "Point",
+                  "coordinates": [47.1240478849, -20.5244155949]
+                  }
+              }
+  ]
+   },
+   {
+    "title": "Firescars",
+    "class":"sub-item",
+    "icon":"fa fa-caret-right dropdown",
+    "childrens": [
+            {
+                "title": "Sub-area 1",
+                "geometry": {
+                "type": "Point",
+                "coordinates": [47.1240478849, -20.5244155949]
+                }
+            },
+            {
+                "title": "Sub-area 2",
+                "geometry": {
+                "type": "Point",
+                "coordinates": [47.1240478849, -20.5244155949]
+                }
+            },
+            {
+                "title": "Sub-area 3",
+                "geometry": {
+                "type": "Point",
+                "coordinates": [47.1240478849, -20.5244155949]
+                }
+            },
+            {
+                "title": "Sub-area 4",
+                "geometry": {
+                "type": "Point",
+                "coordinates": [47.1240478849, -20.5244155949]
+                }
+            },
+            {
+                "title": "Sub-area 5",
+                "geometry": {
+                "type": "Point",
+                "coordinates": [47.1240478849, -20.5244155949]
+                }
+            },
+            {
+                "title": "Sub-area 6",
+                "geometry": {
+                "type": "Point",
+                "coordinates": [47.1240478849, -20.5244155949]
+                }
+            }
+]
+ },
+ {
+    "title": "HiRes Firescars",
+    "class":"sub-item",
+    "icon":"fa fa-caret-right dropdown",
+    "childrens": [
+            {
+                "title": "HiRes Firescars",
+                "geometry": {
+                "type": "Point",
+                "coordinates": [47.1240478849, -20.5244155949]
+                }
+            },
+            {
+                "title": "HiRes Firescars 2020",
+                "geometry": {
+                "type": "Point",
+                "coordinates": [47.1240478849, -20.5244155949]
+                }
+            },
+            {
+                "title": "HiRes Firescars 2021",
+                "geometry": {
+                "type": "Point",
+                "coordinates": [47.1240478849, -20.5244155949]
+                }
+            },
+            {
+                "title": "HiRes Firescars 2022",
+                "geometry": {
+                "type": "Point",
+                "coordinates": [47.1240478849, -20.5244155949]
+                }
+            },
+            {
+                "title": "HiRes Firescars 2023",
+                "geometry": {
+                "type": "Point",
+                "coordinates": [47.1240478849, -20.5244155949]
+                }
+            },
+            {
+                "title": "HiRes Firescars 2024",
+                "geometry": {
+                "type": "Point",
+                "coordinates": [47.1240478849, -20.5244155949]
+                }
+            }
+]
+ },
+ {
+    "title": "Hotspots",
+    "class":"sub-item",
+    "icon":"fa fa-caret-right dropdown",
+    "childrens": [
+            {
+                "title": "Sub-area 1",
+                "geometry": {
+                "type": "Point",
+                "coordinates": [47.1240478849, -20.5244155949]
+                }
+            },
+            {
+                "title": "Sub-area 2",
+                "geometry": {
+                "type": "Point",
+                "coordinates": [47.1240478849, -20.5244155949]
+                }
+            },
+            {
+                "title": "Sub-area 3",
+                "geometry": {
+                "type": "Point",
+                "coordinates": [47.1240478849, -20.5244155949]
+                }
+            },
+            {
+                "title": "Sub-area 4",
+                "geometry": {
+                "type": "Point",
+                "coordinates": [47.1240478849, -20.5244155949]
+                }
+            },
+            {
+                "title": "Sub-area 5",
+                "geometry": {
+                "type": "Point",
+                "coordinates": [47.1240478849, -20.5244155949]
+                }
+            },
+            {
+                "title": "Sub-area 6",
+                "geometry": {
+                "type": "Point",
+                "coordinates": [47.1240478849, -20.5244155949]
+                }
+            }
+]
+ }
+  ]
+  

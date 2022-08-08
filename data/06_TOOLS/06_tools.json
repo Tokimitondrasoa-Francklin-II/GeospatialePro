@@ -1,0 +1,472 @@
+[
+    {
+        "title": "Map Layers",
+        "childrens":[
+
+            {
+                "title": "Base",
+                "icon": "fa fa-caret-right dropdown",
+                "class":"sub-item",
+                "childrens": [
+                                    {
+                                        "radioCheckList": "Parks etc",
+                                        "geometry": {
+                                        "type": "Point",
+                                        "coordinates": [47.1240478849, -20.5244155949]
+                                        }
+                                    },
+                                    {
+                                        "CheckList": "Rain 600-1000",
+                                        "geometry": {
+                                        "type": "Point",
+                                        "coordinates": [47.1240478849, -20.5244155949]
+                                        }
+                                    },
+                                    {
+                                        "radioCheckList": "KNP Breaks",
+                                        "geometry": {
+                                        "type": "Point",
+                                        "coordinates": [47.1240478849, -20.5244155949]
+                                        }
+                                    },
+                                    {
+                                        "radioCheckList": "Sub-area 4",
+                                        "geometry": {
+                                        "type": "Point",
+                                        "coordinates": [47.1240478849, -20.5244155949]
+                                        }
+                                    },
+                                    {
+                                        "radioCheckList": "KNP Pts",
+                                        "geometry": {
+                                        "type": "Point",
+                                        "coordinates": [47.1240478849, -20.5244155949]
+                                        }
+                                    },
+                                    {
+                                        "radioCheckList": "PRNP Breaks",
+                                        "geometry": {
+                                        "type": "Point",
+                                        "coordinates": [47.1240478849, -20.5244155949]
+                                        }
+                                    },
+                                    {
+                                      "radioCheckList": "W Desert",
+                                      "geometry": {
+                                      "type": "Point",
+                                      "coordinates": [47.1240478849, -20.5244155949]
+                                      }
+                                  },
+                                  {
+                                      "radioCheckList": "Kim Ares",
+                                      "geometry": {
+                                      "type": "Point",
+                                      "coordinates": [47.1240478849, -20.5244155949]
+                                      }
+                                  },
+                                  {
+                                      "radioCheckList": "Kim Pts",
+                                      "geometry": {
+                                      "type": "Point",
+                                      "coordinates": [47.1240478849, -20.5244155949]
+                                      }
+                                  },
+                                  {
+                                      "radioCheckList": "Fire Weather Dist.",
+                                      "geometry": {
+                                      "type": "Point",
+                                      "coordinates": [47.1240478849, -20.5244155949]
+                                      }
+                                  },
+                                  {
+                                      "CheckList": "C Curing 250m",
+                                      "geometry": {
+                                      "type": "Point",
+                                      "coordinates": [47.1240478849, -20.5244155949]
+                                      }
+                                  },
+                                  {
+                                      "CheckList": "Labels",
+                                      "geometry": {
+                                      "type": "Point",
+                                      "coordinates": [47.1240478849, -20.5244155949]
+                                      }
+                                  }
+                            ]
+              },
+            
+              {
+                "title": "Histories 97-10 (1K)",
+                "class":"sub-item",
+                "icon": "fa fa-caret-right dropdown",
+                "childrens": [
+                            {
+                                "CheckList": "Years burnt",
+                                "geometry": {
+                                "type": "Point",
+                                "coordinates": [47.1240478849, -20.5244155949]
+                                }
+                            },
+                            {
+                                "CheckList": "Late burnt",
+                                "geometry": {
+                                "type": "Point",
+                                "coordinates": [47.1240478849, -20.5244155949]
+                                }
+                            },
+                            {
+                                "CheckList": "Last burnt",
+                                "geometry": {
+                                "type": "Point",
+                                "coordinates": [47.1240478849, -20.5244155949]
+                                }
+                            },
+                            {
+                                "CheckList": "Sub-area 4",
+                                "geometry": {
+                                "type": "Point",
+                                "coordinates": [47.1240478849, -20.5244155949]
+                                }
+                            },
+                            {
+                                "CheckList": "Sub-area 5",
+                                "geometry": {
+                                "type": "Point",
+                                "coordinates": [47.1240478849, -20.5244155949]
+                                }
+                            },
+                            {
+                                "CheckList": "Sub-area 6",
+                                "geometry": {
+                                "type": "Point",
+                                "coordinates": [47.1240478849, -20.5244155949]
+                                }
+                            }
+            ]
+              },
+            
+              {
+                "title": "Histories 00-21",
+                "class":"sub-item",
+                "icon":"fa fa-caret-right dropdown",
+                "childrens": [
+                    {
+                        "CheckList": "Sub-menu",
+                        "geometry": {
+                        "type": "Point",
+                        "coordinates": [47.1240478849, -20.5244155949]
+                        }
+                    },
+                    {
+                        "CheckList": "Sub-menu",
+                        "geometry": {
+                        "type": "Point",
+                        "coordinates": [47.1240478849, -20.5244155949]
+                        }
+                    },
+                    {
+                        "CheckList": "Sub-menu",
+                        "geometry": {
+                        "type": "Point",
+                        "coordinates": [47.1240478849, -20.5244155949]
+                        }
+                    },
+                    {
+                        "CheckList": "Sub-menu",
+                        "geometry": {
+                        "type": "Point",
+                        "coordinates": [47.1240478849, -20.5244155949]
+                        }
+                    },
+                    {
+                        "CheckList": "Sub-menu",
+                        "geometry": {
+                        "type": "Point",
+                        "coordinates": [47.1240478849, -20.5244155949]
+                        }
+                    },
+                    {
+                        "CheckList": "Sub-menu",
+                        "geometry": {
+                        "type": "Point",
+                        "coordinates": [47.1240478849, -20.5244155949]
+                        }
+                    }
+            ]
+              },
+              {
+                "title": "Histories 12-21",
+                "class":"sub-item",
+                "icon":"fa fa-caret-right dropdown",
+                "childrens": [
+                    {
+                        "CheckList": "Sub-menu",
+                        "geometry": {
+                        "type": "Point",
+                        "coordinates": [47.1240478849, -20.5244155949]
+                        }
+                    },
+                    {
+                        "CheckList": "Sub-menu",
+                        "geometry": {
+                        "type": "Point",
+                        "coordinates": [47.1240478849, -20.5244155949]
+                        }
+                    },
+                    {
+                        "CheckList": "Sub-menu",
+                        "geometry": {
+                        "type": "Point",
+                        "coordinates": [47.1240478849, -20.5244155949]
+                        }
+                    },
+                    {
+                        "CheckList": "Sub-menu",
+                        "geometry": {
+                        "type": "Point",
+                        "coordinates": [47.1240478849, -20.5244155949]
+                        }
+                    },
+                    {
+                        "CheckList": "Sub-menu",
+                        "geometry": {
+                        "type": "Point",
+                        "coordinates": [47.1240478849, -20.5244155949]
+                        }
+                    },
+                    {
+                        "CheckList": "Sub-menu",
+                        "geometry": {
+                        "type": "Point",
+                        "coordinates": [47.1240478849, -20.5244155949]
+                        }
+                    }
+            ]
+             },
+             {
+              "title": "Firescars",
+              "class":"sub-item",
+              "icon":"fa fa-caret-right dropdown",
+              "childrens": [
+                      {
+                          "title": "Sub-area 1",
+                          "geometry": {
+                          "type": "Point",
+                          "coordinates": [47.1240478849, -20.5244155949]
+                          }
+                      },
+                      {
+                          "title": "Sub-area 2",
+                          "geometry": {
+                          "type": "Point",
+                          "coordinates": [47.1240478849, -20.5244155949]
+                          }
+                      },
+                      {
+                          "title": "Sub-area 3",
+                          "geometry": {
+                          "type": "Point",
+                          "coordinates": [47.1240478849, -20.5244155949]
+                          }
+                      },
+                      {
+                          "title": "Sub-area 4",
+                          "geometry": {
+                          "type": "Point",
+                          "coordinates": [47.1240478849, -20.5244155949]
+                          }
+                      },
+                      {
+                          "title": "Sub-area 5",
+                          "geometry": {
+                          "type": "Point",
+                          "coordinates": [47.1240478849, -20.5244155949]
+                          }
+                      },
+                      {
+                          "title": "Sub-area 6",
+                          "geometry": {
+                          "type": "Point",
+                          "coordinates": [47.1240478849, -20.5244155949]
+                          }
+                      }
+          ]
+           },
+           {
+              "title": "HiRes Firescars",
+              "class":"sub-item",
+              "icon":"fa fa-caret-right dropdown",
+              "childrens": [
+                      {
+                          "title": "HiRes Firescars",
+                          "geometry": {
+                          "type": "Point",
+                          "coordinates": [47.1240478849, -20.5244155949]
+                          }
+                      },
+                      {
+                          "title": "HiRes Firescars 2020",
+                          "geometry": {
+                          "type": "Point",
+                          "coordinates": [47.1240478849, -20.5244155949]
+                          }
+                      },
+                      {
+                          "title": "HiRes Firescars 2021",
+                          "geometry": {
+                          "type": "Point",
+                          "coordinates": [47.1240478849, -20.5244155949]
+                          }
+                      },
+                      {
+                          "title": "HiRes Firescars 2022",
+                          "geometry": {
+                          "type": "Point",
+                          "coordinates": [47.1240478849, -20.5244155949]
+                          }
+                      },
+                      {
+                          "title": "HiRes Firescars 2023",
+                          "geometry": {
+                          "type": "Point",
+                          "coordinates": [47.1240478849, -20.5244155949]
+                          }
+                      },
+                      {
+                          "title": "HiRes Firescars 2024",
+                          "geometry": {
+                          "type": "Point",
+                          "coordinates": [47.1240478849, -20.5244155949]
+                          }
+                      }
+          ]
+           },
+           {
+              "title": "Hotspots",
+              "class":"sub-item",
+              "icon":"fa fa-caret-right dropdown",
+              "childrens": [
+                      {
+                          "CheckList": "2004",
+                          "geometry": {
+                          "type": "Point",
+                          "coordinates": [47.1240478849, -20.5244155949]
+                          }
+                      },
+                      {
+                          "CheckList": "2005",
+                          "geometry": {
+                          "type": "Point",
+                          "coordinates": [47.1240478849, -20.5244155949]
+                          }
+                      },
+                      {
+                          "CheckList": "2006",
+                          "geometry": {
+                          "type": "Point",
+                          "coordinates": [47.1240478849, -20.5244155949]
+                          }
+                      },
+                      {
+                          "CheckList": "2007",
+                          "geometry": {
+                          "type": "Point",
+                          "coordinates": [47.1240478849, -20.5244155949]
+                          }
+                      },
+                      {
+                          "CheckList": "2008",
+                          "geometry": {
+                          "type": "Point",
+                          "coordinates": [47.1240478849, -20.5244155949]
+                          }
+                      },
+                      {
+                          "CheckList": "2009",
+                          "geometry": {
+                          "type": "Point",
+                          "coordinates": [47.1240478849, -20.5244155949]
+                          }
+                      }
+          ]
+           }
+
+        ]
+    },
+    {
+        "title": "Information",
+        "childrens":[
+
+            {
+                "title":"Useful links",
+                "link":"https://.........."
+            },
+            {
+                "title":"Info booklets",
+                "link":"https://.........."
+            },
+            {
+                "title":"Send firelines",
+                "link":"https://.........."
+            }
+
+        ]
+    },
+    {
+        "title": "Google Earth, WMS",
+        "childrens":[
+            {
+                "title":"Google Earth",
+                "link":"https://..........",
+                "childrens":[
+                    {
+                        "title":"Cuurent fire data",
+                        "link":"https://.........."
+                     },
+                     {
+                        "title":"Past year's fire scars",
+                        "link":"https://.........."
+                    },
+                    {
+                        "title":"Fire history patterns",
+                        "link":"https://.........."
+                     }
+            ]
+            },
+            {
+                "title":"View as WMS",
+                "link":"https://..........",
+                "childrens":{
+                    "title":"service"
+                }
+            },
+            {
+                "title":"View with QGIS plug-in",
+                "link":"https://.........."
+            }
+        ]
+    },
+    {
+        "title": "Report a problem",
+        "childrens":{
+            "title":"Report a problem"
+        }
+    },
+    {
+        "title": "Map legends",
+        "childrens":[
+            {
+                "title":"Toggle legend"
+
+            },
+            {
+                "title":"Legend for NAFI"
+                
+            },
+            {
+                "title":"Background Maps"
+                
+            }
+        ]
+    }
+]
